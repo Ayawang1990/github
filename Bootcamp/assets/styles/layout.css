@@ -1,0 +1,122 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+
+}
+
+.float-none{
+    float: none;
+
+}
+
+.clear-left{
+    clear: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.clear-none{
+    clear: none;
+}
+
+.style-01{
+    height: 100px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+
+
+/* 
+top right bottom left=postional properties
+Postional properties and z-index will not word If 
+the postion 
+is SET to
+Static*/
+
+.postion-static{
+    background-color: cadetblue;
+    position: static;
+    left: 50%; /*will not work*/
+}
+
+.postion-relative{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 50%
+}
+
+.postion-absolute{
+    background-color: thistle;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.postion-fixed{
+    background-color: coral;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: push ease 5s alternate infinite;
+    animation-delay: 1.5s;
+
+}
+
+
+/*inline -CANNOT set the 
+width height margin top and margin borrom
+block- CAN set width height margin on all sides
+*/
+
+.display-inline{
+    display: inline;
+    width:50% /*will nor work*/
+
+}
+
+.display-block{
+    display: block;
+    border: 2px solid black;
+    height: 50px;
+    margin:20px;
+    background-color: cornflowerblue;
+}
+
+.display-inline-block{
+    display: inline-block;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 25px;
+
+}
+
+.display-none{
+    display: none;
+}
+
+.style-01.parent{
+    background-color: skyblue;
+    height: auto;
+}
+.parent{
+    position: relative;
+}
+
+
+
+.child{
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+}
+

@@ -1,0 +1,23 @@
+.card{
+    width: 50%;
+
+}
+.name1{
+    width: 50%;
+    box-shadow: 1px 1px 10px gray;
+    float: left;
+}
+
+.name2{
+    width: 50%
+    box-shadow: 1px 1px 10px gray;
+    float: left;
+}
+.name1-w-50-percent{
+    width: 30%;
+}
+
+.name2-w-50-percent{
+    width: 30%;
+    border-radius: 15px;
+}
